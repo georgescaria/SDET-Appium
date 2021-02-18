@@ -53,9 +53,6 @@ DesiredCapabilities capabality = new DesiredCapabilities();
         driver.context("WEBVIEW_com.androidsample.generalstore");
         driver.findElement(By.xpath("//*[@name='q']")).sendKeys("George");
         Thread.sleep(3000);
-        
-        
-        
        
 	}
 
