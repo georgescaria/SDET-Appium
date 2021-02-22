@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-09T10:53:25 IST" name="Default suite" finished-at="2021-02-09T10:54:13 IST" duration-ms="48747">
+  <suite started-at="2021-02-22T18:31:47 IST" name="Default suite" finished-at="2021-02-22T18:33:03 IST" duration-ms="75851">
     <groups>
     </groups>
-    <test started-at="2021-02-09T10:53:25 IST" name="Default test" finished-at="2021-02-09T10:54:13 IST" duration-ms="48747">
-      <class name="com.SDET.Appium.RegistrationValidation">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.SDET.Appium.RegistrationValidation@22e357dc]" started-at="2021-02-09T10:53:25 IST" name="beforeClass" finished-at="2021-02-09T10:53:56 IST" duration-ms="31752" status="PASS">
+    <test started-at="2021-02-22T18:31:47 IST" name="Default test" finished-at="2021-02-22T18:33:03 IST" duration-ms="75851">
+      <class name="com.SDET.AppiumDay1.LoginValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:31:47 IST" name="beforeClass" finished-at="2021-02-22T18:31:47 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.SDET.Appium.RegistrationValidation@22e357dc]" started-at="2021-02-09T10:53:56 IST" name="f" finished-at="2021-02-09T10:54:13 IST" duration-ms="16906" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [geosca@gmail.com] but found [geo@gmail.com]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [geosca@gmail.com] but found [geo@gmail.com]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.SDET.Appium.RegistrationValidation.f(RegistrationValidation.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="f()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:31:47 IST" name="f" finished-at="2021-02-22T18:33:03 IST" duration-ms="75782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.SDET.Appium.RegistrationValidation@22e357dc]" started-at="2021-02-09T10:54:13 IST" name="afterClass" finished-at="2021-02-09T10:54:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:33:03 IST" name="afterClass" finished-at="2021-02-22T18:33:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.SDET.Appium.RegistrationValidation -->
+      </class> <!-- com.SDET.AppiumDay1.LoginValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
