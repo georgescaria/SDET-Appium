@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SDET.AppiumDay1.LoginValidation">
+      <class name="com.SDET.Project.SET2">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
           <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.SDET.AppiumDay1.LoginValidation -->
+      </class> <!-- com.SDET.Project.SET2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

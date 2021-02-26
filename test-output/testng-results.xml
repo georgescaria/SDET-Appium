@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-22T18:31:47 IST" name="Default suite" finished-at="2021-02-22T18:33:03 IST" duration-ms="75851">
+  <suite started-at="2021-02-24T11:58:43 IST" name="Default suite" finished-at="2021-02-24T12:00:47 IST" duration-ms="123883">
     <groups>
     </groups>
-    <test started-at="2021-02-22T18:31:47 IST" name="Default test" finished-at="2021-02-22T18:33:03 IST" duration-ms="75851">
-      <class name="com.SDET.AppiumDay1.LoginValidation">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:31:47 IST" name="beforeClass" finished-at="2021-02-22T18:31:47 IST" duration-ms="11" status="PASS">
+    <test started-at="2021-02-24T11:58:43 IST" name="Default test" finished-at="2021-02-24T12:00:47 IST" duration-ms="123883">
+      <class name="com.SDET.Project.SET2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.SDET.Project.SET2@6c130c45]" started-at="2021-02-24T11:58:43 IST" name="beforeClass" finished-at="2021-02-24T11:59:01 IST" duration-ms="18616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:31:47 IST" name="f" finished-at="2021-02-22T18:33:03 IST" duration-ms="75782" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.SDET.Project.SET2@6c130c45]" started-at="2021-02-24T11:59:01 IST" name="f" finished-at="2021-02-24T12:00:47 IST" duration-ms="105196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.SDET.AppiumDay1.LoginValidation@6c130c45]" started-at="2021-02-22T18:33:03 IST" name="afterClass" finished-at="2021-02-22T18:33:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.SDET.Project.SET2@6c130c45]" started-at="2021-02-24T12:00:47 IST" name="afterClass" finished-at="2021-02-24T12:00:47 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.SDET.AppiumDay1.LoginValidation -->
+      </class> <!-- com.SDET.Project.SET2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
